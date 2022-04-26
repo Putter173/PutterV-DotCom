@@ -1,0 +1,99 @@
+#bodyWrapper {
+    background-image: url("homePageBackground.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+body,
+#siteTitle {
+    margin: 0;
+    background-color: #121212;
+}
+
+#header {
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+#header,
+#footer {
+    height: 4em;
+    width: 100vw;
+    background-color: #121212;
+}
+
+#footer {
+    padding-top: 0.75em;
+}
+
+/*Vertically Center Text*/
+#siteTitle,
+#navBar,
+#footerText {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: fit-content;
+}
+
+h1,
+h2,
+p {
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    color: #32FCA7;
+}
+
+p {
+    color: #FFF;
+    font-size: 1.46875em;
+}
+
+#siteTitle {
+    font-size: 36px;
+    float: left;
+    padding-left: 2em;
+}
+
+#navBar,
+#footerIcons {
+    display: inline;
+    float: right;
+    padding-right: 2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+#footerText {
+    display: grid;
+    place-items: center;
+    font-size: 18px;
+    margin-right: 3em;
+}
+
+#navBar a svg,
+#footerIcons a svg {
+    background-color: none;
+    height: 3em;
+    width: 3em;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.extraMargin {
+    margin-right: 3em;
+}
+
+#navBar a:hover svg path{
+    fill: #32FCA7;
+}
+
+#footer {
+    background-color: #121212;
+    position: static;
+}
