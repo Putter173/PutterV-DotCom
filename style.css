@@ -99,6 +99,7 @@ button:active {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  overflow-x: hidden;
 }
 
 #mainContent {
@@ -111,10 +112,6 @@ body,
 #siteTitle {
   margin: 0;
   background-color: #121212;
-}
-
-html {
-  overflow-x: hidden;
 }
 
 #nav,
