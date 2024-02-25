@@ -101,7 +101,7 @@ button:active {
   background-position: center;
 }
 
-.mainContent {
+#mainContent {
   width: 100vw;
   height: 85%;
   display: flex;
@@ -228,9 +228,6 @@ body {
     width: 70%;
   }
   #navBar {
-    display: none;
-  }
-  #mainContent {
     display: none;
   }
 

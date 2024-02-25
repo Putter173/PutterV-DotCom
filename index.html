@@ -51,7 +51,7 @@
                 background-position-y: bottom;
             }
 
-            .mainContent {
+            #mainContent {
                 display: block;
             }
 
@@ -84,6 +84,16 @@
 
         }
     </style>
+    <script>
+        function hideMainContent() {
+
+            if (document.getElementById('checkbox').checked) {
+                document.getElementById("mainContent").style.display = "none";
+            } else {
+                document.getElementById("mainContent").style.display = "block";
+            }
+        } 
+    </script>
 </head>
 
 <body>
@@ -124,7 +134,7 @@
                     </a>
                 </div>
                 <div id="menuToggle">
-                    <input type="checkbox" />
+                    <input type="checkbox" id="checkbox" onclick=hideMainContent() />
                     <span></span>
                     <span></span>
                     <span></span>
@@ -151,7 +161,7 @@
                 </div>
             </div>
         </div>
-        <div class="mainContent"> <!-- Main Content -->
+        <div id="mainContent"> <!-- Main Content -->
             <div class="halfTheScreen">
                 <img src="/assets/portrait.png">
             </div>
