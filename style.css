@@ -131,7 +131,7 @@ body {
 }
 
 #footer {
-  padding-top: 0.75em;
+  padding-top: 2em;
   background-color: #121212;
   position: static;
 }
@@ -239,7 +239,6 @@ body {
   /* Hamburberger */
 
   #menuToggle {
-    z-index: 1;
     -webkit-user-select: none;
     user-select: none;
 }
@@ -325,12 +324,13 @@ body {
 #menu {
     position: absolute;
     width: 100vw;
+    height: calc(100vh - 4em);
 
     padding: 50px;
     padding-top: -50px;
     right: -70px;
 
-    height: calc(100vh - 4em);
+   
 
     background: #121212;
     list-style-type: none;
