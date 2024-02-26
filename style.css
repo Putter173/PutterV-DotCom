@@ -228,6 +228,10 @@ body,
     display: none;
   }
 
+  #bodyWrapper {
+    height: calc(100vh +  4em);
+  }
+
 }
 
   /* Hamburberger */
