@@ -32,8 +32,8 @@ textarea {
   padding: 1em;
   width: 24vw;
   border: none;
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  /* backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px); */
   padding: 1.5em;
   resize: none;
   margin-bottom: 1.5em;
@@ -50,8 +50,8 @@ button {
     inset 0px -40px 40px rgba(255, 255, 255, 0.2);
   margin: none;
   border: none;
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  /* backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px); */
   font-size: 1.5em;
 }
 
@@ -171,8 +171,8 @@ body,
     inset 0px 6px 12px rgba(255, 255, 255, 0.4);
   border-radius: 2em;
   padding: 1vw;
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  /* backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px); */
   text-align: center;
 }
 
@@ -356,7 +356,7 @@ body,
     opacity: 1;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 599px) {
     #menuToggle {
       display: none;
     }

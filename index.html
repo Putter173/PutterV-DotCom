@@ -44,7 +44,7 @@
             font-size: 1.2em;
         }
 
-        @media only screen and (max-width: 599px) {
+        @media only screen and (max-width: 780px) {
             #bodyWrapper {
                 background-image: url(assets/mobileHome.png);
                 background-size: 130%;
@@ -84,16 +84,6 @@
 
         }
     </style>
-    <script>
-        function hideMainContent() {
-
-            if (document.getElementById('checkbox').checked) {
-                document.getElementById("mainContent").style.display = "none";
-            } else {
-                document.getElementById("mainContent").style.display = "block";
-            }
-        } 
-    </script>
 </head>
 
 <body>
@@ -134,7 +124,7 @@
                     </a>
                 </div>
                 <div id="menuToggle">
-                    <input type="checkbox" id="checkbox" onclick=hideMainContent() />
+                    <input type="checkbox" id="checkbox"/>
                     <span></span>
                     <span></span>
                     <span></span>
